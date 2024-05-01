@@ -1,0 +1,54 @@
+body{
+    background-image: url(Are_Password_Managers_Safe_hero.png);
+    
+}
+.container {
+    border-radius:100px;
+    cursor:pointer;
+    transition:opacity 0.15s;
+    max-width: 550px;
+    margin: 175px auto;
+    margin-left: 950px;
+    margin-top: 80px;
+    border- 2px solid #042a17;
+    border-color:rgb(220, 220, 220);
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 50%;
+    margin: 10px 0;
+    margin-left: 125px;
+    padding: 8px;
+    border: 1px solid rgb(29, 159, 195);
+    border-radius: 50px;
+}
+
+button {
+    display: block;
+    width: 45%;
+    padding: 10px;
+    margin-left:150px;
+    background-color:rgba(0, 0, 0, 0.671);
+    color:rgb(252, 252, 252);
+    border-color:rgb(42, 118, 211);
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    transition:background-color 1s, color 1s,opacity 0.18s;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    opacity:0.6;
+}
+
+button:active{
+    opacity:0.3;
+}
+
+#message {
+    margin-top: 10px;
+    text-align: center;
+
+}
